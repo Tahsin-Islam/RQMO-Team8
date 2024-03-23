@@ -38,46 +38,32 @@
     display: inline-flex;
     align-items: flex-start;
     gap: 41px;
-}
-
-.topBar-right a {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 41px;
+    margin-right: 40px;
 }
 
 .topBar-right .login{
-    display: flex;
-    width: 140px;
-    height: 47px;
-    padding: 7px 17px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     border-radius: 25px;
     border: 1px solid #FBA834;
     background: #FFF;
+    width: 140px;
+    height: 47px;
     color: #000;
-    text-align: center;
-    font-family: Avenir;
     font-size: 24px;
-    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .topBar-right .signup {
-    display: flex;
-    width: 125px;
-    height: 47px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
     border-radius: 25px;
     background: #FBA834;
-    color: #FFFAFA;
-    text-align: center;
-    font-family: Avenir;
+    width: 140px;
+    height: 47px;
+    color: #FFF;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
