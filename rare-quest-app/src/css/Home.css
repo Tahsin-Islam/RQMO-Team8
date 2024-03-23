@@ -1,0 +1,12 @@
+body{
+    background-color: #2E1469;
+}
+
+.homePage .play-message {
+    display: flex;
+    width: 835px;
+    height: 347px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}

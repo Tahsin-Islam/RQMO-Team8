@@ -1,0 +1,31 @@
+.topBar{
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.topBar-middle{
+    display: flex;
+    width: 398px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    flex-shrink: 0;
+}
+
+.topBar-middle a{
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
