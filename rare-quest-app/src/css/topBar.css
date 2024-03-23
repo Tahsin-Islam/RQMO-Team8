@@ -1,31 +1,83 @@
-.topBar{
+.topBar {
     color: #FFF;
     font-family: Avenir;
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    margin-left: 20px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-top: 20px;
 }
 
-.topBar-middle{
+.topBar .quest{
+    font-weight: bold;
+    color: #34E4EA;
+}
+
+.topBar-middle {
     display: flex;
-    width: 398px;
-    height: 56px;
+    flex-grow: 1; /* Allow the middle section to grow */
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 41px;
+    margin-left: auto; /* Add margin to push the buttons to the right */
+    margin-right: auto; /* Add margin to push the buttons to the left */
+}
+
+.topBar-middle a {
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.companyName {
+    margin-left: 20px; /* Adjust this margin as needed */
+}
+
+.topBar-right {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 41px;
+}
+
+.topBar-right a {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 41px;
+}
+
+.topBar-right .login{
+    display: flex;
+    width: 140px;
+    height: 47px;
+    padding: 7px 17px;
     justify-content: center;
     align-items: center;
-    gap: 41px;
-    flex-shrink: 0;
+    gap: 10px;
+    border-radius: 25px;
+    border: 1px solid #FBA834;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 400;
 }
 
-.topBar-middle a{
-    color: #FFF;
+.topBar-right .signup {
+    display: flex;
+    width: 125px;
+    height: 47px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 25px;
+    background: #FBA834;
+    color: #FFFAFA;
+    text-align: center;
     font-family: Avenir;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration: none;
 }
-
-
