@@ -1,6 +1,5 @@
-// LoginPage.js
 import React, { useState } from 'react';
-import './css/Login.css'; // Import your CSS file
+import './css/Login.css';
 
 function LoginPage() {
     // State variables to store username and password

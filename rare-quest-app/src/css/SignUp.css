@@ -1,4 +1,4 @@
-.loginPage {
+.signUpPage {
     width: 100vw;
     max-width: 400px;
     margin: 5% auto; /* Adjust margin to center vertically */
@@ -37,7 +37,7 @@ input {
     font-family: 'Avenir';
 }
 
-.loginPage button {
+.signUpPage button {
     display: block; /* Ensure button is block-level for centering */
     margin: 0 auto; /* Center the button horizontally */
     width: 50%; /* Adjust the width as needed */
@@ -62,7 +62,7 @@ button:hover {
 }
 
 @media (max-width: 767px) {
-    .signUpForm {
+    .signUpPage {
         max-width: 260px;
     }
     .slide-in {

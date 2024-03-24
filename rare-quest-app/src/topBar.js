@@ -3,6 +3,7 @@ import './css/topBar.css';
 import LoginPage from './Login';
 import HomePage from "./Home";
 import HowToPlay from "./HowToPlay";
+import SignUp from "./SignUp";
 
 function TopBar({setContentText}){
 
@@ -18,6 +19,10 @@ function TopBar({setContentText}){
         setContentText(<HowToPlay />)
     }
 
+    const handleSignUpClick = () => {
+        setContentText(<SignUp />)
+    }
+
     return (
         <div className="topBar">
             <div className="companyName">Rare<span className='quest'>Quest</span></div>
@@ -28,7 +33,7 @@ function TopBar({setContentText}){
             </div>
             <div className='topBar-right'>
                 <a className='login' onClick={handleLoginClick}>Login</a>
-                <a className='signup'>Sign Up</a>
+                <a className='signup' onClick={handleSignUpClick}>Sign Up</a>
             </div>
         </div>
     );
