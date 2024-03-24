@@ -1,8 +1,12 @@
 import React from 'react';
 import './css/Home.css'; // Import your CSS file
 import homePageAsset from './Assets/homePageAsset.png';
+import Game from './Game';
 
-function HomePage() {
+function HomePage({setContentText}) {
+    const handlePlayClick = () => {
+        setContentText(<Game />)
+    }
     return (
         <div className="homePage">
             <div className='container'>
@@ -14,7 +18,7 @@ function HomePage() {
                 </div>
             </div>
             <p>Are you ready to make a difference in the world of rare diseases?</p>
-            <button className='playButton'>PLAY NOW</button>
+            <button className='playButton' onClick={handlePlayClick}>PLAY NOW</button>
         </div>
     );
 }
