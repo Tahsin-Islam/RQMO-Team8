@@ -1,15 +1,12 @@
-/* LoginPage.css */
 .loginPage {
     width: 100vw;
-    left: 50vw;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 10% auto; /* Adjust margin to center vertically */
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-top: 10%;
-  }
+}
 
 h2 {
     text-align: center;
@@ -26,6 +23,7 @@ h2 {
 
 label {
     margin-right: 10px;
+    color: black;
 }
 
 input {
@@ -37,55 +35,56 @@ input {
     border-radius: 3px;
     font-size: 16px;
     font-family: 'Avenir';
-  }
+}
 
 .loginPage button {
+    display: block; /* Ensure button is block-level for centering */
+    margin: 0 auto; /* Center the button horizontally */
+    width: 50%; /* Adjust the width as needed */
     padding: 10px 20px;
     border: none;
-    background-color: #007bff;
+    background-color: #2E1469;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
+    align-items: center;
+    font-size: 15px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #5d2cd0;
 }
 
 .slide-in {
     position:relative;
     animation-name: slideIn;
     animation-duration: 1s;
-  }
-  
-  @media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
     .signUpForm {
-      max-width: 260px;
-     
+        max-width: 260px;
     }
     .slide-in {
-      animation-name: slideInSmallerScreen;
-      animation-duration: 1s;
+        animation-name: slideInSmallerScreen;
+        animation-duration: 1s;
     }
-  }
-  
-  @keyframes slideIn {
+}
+
+@keyframes slideIn {
     from {
-      left: -100%; 
+        left: -100%; 
     }
-  
     to {
-      left: 0;
+        left: 0;
     }
-  }
-  
-  @keyframes slideInSmallerScreen {
+}
+
+@keyframes slideInSmallerScreen {
     from {
-      left: -100vw; 
+        left: -100vw; 
     }
-  
     to {
-      left: 0;
+        left: 0;
     }
-  }
+}
