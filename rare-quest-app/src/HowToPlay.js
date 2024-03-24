@@ -26,6 +26,25 @@ function HowToPlay() {
                     Each new case presents unique challenges and learning opportunities.
                 </li>
             </ol>
+            <h1>Tips for Success</h1>
+            <ul>
+                <li><b>Be Observant</b><br></br>
+                    Details in the patient's background and symptoms can guide your treatment choices.
+                </li>
+                <li><b>Research is Key</b><br></br>
+                    Utilizing the research option can significantly improve your treatment outcomes.
+                </li>
+                <li><b>Adapt and Learn</b><br></br>
+                    Not every treatment will be equally effective for all patients. 
+                    Be ready to adapt your strategy based on feedback and new information.
+                </li>
+            </ul>
+            <h1>Objective</h1>
+            <p>Your ultimate goal is to improve each patient's quality of life, navigating through the complexities of rare diseases with empathy, knowledge, and strategic decision-making. 
+                Remember, in "Rare Quest: Pathways to Healing," every discovery counts towards your journey of making a difference.
+                <br></br><br></br>
+                Good luck, and let the quest for healing begin!
+            </p>
 
         </div>
     )

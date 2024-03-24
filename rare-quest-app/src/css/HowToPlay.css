@@ -9,7 +9,7 @@ h1 {
 .instructions {
     max-width: 700px; /* Adjust as needed */
     margin: 0 auto; /* Center the container */
-    padding: 20px; /* Add padding for better readability */
+    padding: 10px; /* Add padding for better readability */
     font-size: 18px;
 }
 
