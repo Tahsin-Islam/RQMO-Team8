@@ -1,0 +1,59 @@
+.contactUsPage {
+    width: 100vw;
+    max-width: 400px;
+    margin: 5% auto; 
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #2E1469;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Avenir';
+}
+
+.inputContainer {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+    color: black;
+}
+
+input,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 1px #B1B1B1;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Avenir';
+}
+
+textarea {
+    height: 100px; 
+}
+.contactUsPage button {
+    display: block;
+    margin: 0 auto;
+    width: 50%; 
+    padding: 10px 20px;
+    border: none;
+    background-color: #2E1469;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #5d2cd0;
+}
