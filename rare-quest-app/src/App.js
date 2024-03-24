@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       {/* Render the content of contextText */}
-      {contextText}
       <TopBar setContextText={setContextText} setbrokering={setbrokering} Brokering={Brokering}></TopBar>
+      {contextText}
     </div>
   );
 }
