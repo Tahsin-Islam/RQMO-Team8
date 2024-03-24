@@ -9,11 +9,15 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-top: 10%;
-    
   }
 
 h2 {
-    margin-bottom: 20px;
+    text-align: center;
+    color: #2E1469;
+    animation: fadeIn;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Avenir';
 }
 
 .inputContainer {
@@ -25,20 +29,63 @@ label {
 }
 
 input {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 1px #B1B1B1;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Avenir';
+  }
 
-button {
+.loginPage button {
     padding: 10px 20px;
     border: none;
     background-color: #007bff;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
 button:hover {
     background-color: #0056b3;
 }
+
+.slide-in {
+    position:relative;
+    animation-name: slideIn;
+    animation-duration: 1s;
+  }
+  
+  @media (max-width: 767px) {
+    .signUpForm {
+      max-width: 260px;
+     
+    }
+    .slide-in {
+      animation-name: slideInSmallerScreen;
+      animation-duration: 1s;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      left: -100%; 
+    }
+  
+    to {
+      left: 0;
+    }
+  }
+  
+  @keyframes slideInSmallerScreen {
+    from {
+      left: -100vw; 
+    }
+  
+    to {
+      left: 0;
+    }
+  }

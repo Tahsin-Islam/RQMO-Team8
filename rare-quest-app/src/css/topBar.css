@@ -28,6 +28,13 @@
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
+    padding: 10px 10px;
+}
+
+.topBar-middle a:hover {
+    background-color: #5d2cd0;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .companyName {
@@ -81,3 +88,4 @@
     border-color: #FBA834;
     cursor: pointer;
 }
+
