@@ -13,7 +13,7 @@ function TopBar({setContentText}){
     };
 
     const handleHomeClick = () => {
-        setContentText(<HomePage />)
+        setContentText(<HomePage setContentText={setContentText} />)
     }
 
     const handleHowToPlayClick = () => {

@@ -4,8 +4,8 @@ import HomePage from "./Home";
 import TopBar from "./topBar";
 
 function App() {
-  // Using useState to manage state
-  const [contextText, setContextText] = useState(<HomePage/>);
+  // Declare the state and setter function
+  const [contextText, setContextText] = useState(<HomePage />);
 
   return (
     <div className="App">

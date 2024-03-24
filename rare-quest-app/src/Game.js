@@ -1,5 +1,7 @@
 function Game() {
-    <p>Patient Profile</p>
+    return(
+        <p>Hello</p>
+    )
 }
 
 export default Game;

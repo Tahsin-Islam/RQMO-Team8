@@ -3,10 +3,11 @@ import './css/Home.css'; // Import your CSS file
 import homePageAsset from './Assets/homePageAsset.png';
 import Game from './Game';
 
-function HomePage({setContentText}) {
+function HomePage({ setContentText }) {
     const handlePlayClick = () => {
-        setContentText(<Game />)
-    }
+        setContentText(<Game />);
+    };
+
     return (
         <div className="homePage">
             <div className='container'>
