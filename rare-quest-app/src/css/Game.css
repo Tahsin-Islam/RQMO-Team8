@@ -1,0 +1,34 @@
+/* Game.css */
+
+/* Import the Cabin font */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap');
+
+.play-game {
+    display: flex;
+}
+
+.profile-section {
+    margin-right: 10%; /* Add a margin to the right side */
+    margin-left: 10%;
+    margin-top: 8%;
+    
+}
+
+.profile-section p{
+    margin-left: 28%;
+}
+.information-section {
+    max-width: 588px; /* Adjust the maximum width as needed */
+    color: #FFF;
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8%;
+}
+
+.patientImage {
+    width: 240px;
+    height: 240px;
+    margin-top: 50px;
+}
