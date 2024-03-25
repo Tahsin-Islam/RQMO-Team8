@@ -1,8 +1,11 @@
 // Game.js
 
 import React from 'react';
-import './css/Game.css';
-import Patient_profile from './Patient_profile';
+
+import Card from './card';
+import femalePatientAsset from './Assets/avatar-svgrepo-com 1.png';
+import sadEmojiAsset from './Assets/slightly_frowning_face_.png';
+import './css/Game.css'
 
 function Game() {
 
@@ -16,9 +19,14 @@ function Game() {
       };
 
     return (
+        <div className='game-area'>
+            
         
+        <div className='game-item'><Card name={patient.name} age={patient.age} occupation={patient.occupation} background={patient.background} imageUrl={femalePatientAsset} patientState={sadEmojiAsset}/></div>
+        
+        </div>
 
-        <Patient_profile patient={patient} />
+
       
     );
 }

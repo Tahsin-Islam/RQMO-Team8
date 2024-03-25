@@ -1,45 +1,13 @@
-/* Game.css */
-
-/* Import the Cabin font */
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap');
-
-.play-game {
-    display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-}
-
-.profile-section {
-    margin-right: 3%; /* Add a margin to the right side */
-    margin-top: 8%;
-    
-}
-
-.profile-section p{
-    margin-left: 28%;
-}
-.information-section {
-    max-width: 588px; /* Adjust the maximum width as needed */
-    color: #FFF;
-    font-family: 'Cabin', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 8%;
-}
-
-.patientImage {
-    width: 240px;
-    height: 240px;
-    margin-top: 50px;
-}
-
-.profile-section .state{
-    margin: 20%;
-    font-size: 24px;
-}
-
-.profile-section .state img{
-    width: 40px;
-    height: 40px;
+.game-area {
+    display: flex; /* Enables Flexbox */
+    align-items: flex-start; /* Aligns children at the start of the cross axis */
+    gap: 20px; /* Optional: adds some space between the children */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+  
+  .game-item {
+    flex: 1; /* Allows the card to grow and fill the available space */
+  display: flex;
 }
