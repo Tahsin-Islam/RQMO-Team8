@@ -22,7 +22,7 @@
     width: 100%;
     padding: 16px 0;
     color: black;
-    background-color: rgba(141, 153, 14, 0.2); /* Slightly different background for visual separation */
+    background-color: #8d990e33; /* Slightly different background for visual separation */
   }
 
   .card-body {

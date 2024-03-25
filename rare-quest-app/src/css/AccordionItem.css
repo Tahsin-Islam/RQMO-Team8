@@ -1,0 +1,59 @@
+/* AccordionItem.css */
+
+.accordion-item {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden; /* Keeps everything inside the accordion-item */
+  transition: background-color 0.3s ease;
+}
+
+.accordion-item .accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-image: linear-gradient(to right, #0C9D3D, #73cf0a); /* Updated gradient colors */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  color: white; /* Text color for readability */
+  text-align: left;
+}
+
+.accordion-item .accordion-content {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  padding: 0 15px;
+  background-color: #ffffff88; /* Semi-transparent light green for content background */
+  color: black; /* Text color for content */
+  text-align: left;
+}
+
+.accordion-item.open .accordion-content {
+  max-height: 1000px; /* To accommodate content */
+  padding: 15px; /* Adjusted padding for when open, includes padding at the bottom */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px; /* Added space between the button and the bottom border of the accordion */
+}
+
+.select-treatment-button {
+  background-color: rgb(160, 0, 0);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.select-treatment-button:hover {
+  background-color: darkred; /* Darker shade for hover state */
+}

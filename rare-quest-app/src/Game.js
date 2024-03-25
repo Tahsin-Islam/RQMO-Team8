@@ -6,6 +6,7 @@ import Card from './card';
 import femalePatientAsset from './Assets/avatar-svgrepo-com 1.png';
 import sadEmojiAsset from './Assets/slightly_frowning_face_.png';
 import './css/Game.css'
+import TreatmentOptions from './TreatmentOptions';
 
 function Game() {
 
@@ -23,7 +24,8 @@ function Game() {
             
         
         <div className='game-item'><Card name={patient.name} age={patient.age} occupation={patient.occupation} background={patient.background} imageUrl={femalePatientAsset} patientState={sadEmojiAsset}/></div>
-        
+        <div className='game-item-2'> What is best next step towards the patients well-being ?<TreatmentOptions /></div>
+
         </div>
 
 

@@ -7,7 +7,14 @@
     padding-top: 5%;
   }
   
-  .game-item {
-    flex: 1; /* Allows the card to grow and fill the available space */
+.game-item {
+  flex: 1; /* Allows the card to grow and fill the available space */
+display: flex;
+}
+.game-item-2{
+  width: 50%;
   display: flex;
+  flex-direction: column; /* Stack the text and TreatmentOptions vertically */
+  align-items: center; /* Center the items vertically */
+  text-align: center; /* Center the text */
 }
