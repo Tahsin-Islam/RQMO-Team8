@@ -1,0 +1,41 @@
+/* TreatmentHistory.css */
+
+.treatment-history {
+    background-color: #f5f5f5; /* Light grey background for the history section */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 20px; /* Padding around the content for spacing */
+    margin-top: 20px; /* Space from the previous element */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.treatment-history h2 {
+    color: #333; /* Dark grey color for the title for better readability */
+    margin-bottom: 16px; /* Space below the title */
+}
+
+.treatment-history ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Resets padding */
+    margin: 0; /* Resets margin */
+}
+
+.treatment-history ul li {
+    background-color: #ffffff; /* White background for each list item */
+    border: 1px solid #ddd; /* Light grey border for each list item */
+    border-radius: 5px; /* Rounded corners for list items */
+    padding: 10px; /* Padding inside each list item */
+    margin-bottom: 10px; /* Space between list items */
+    display: flex; /* Enables flexbox for content alignment */
+    justify-content: space-between; /* Spreads the content and cost apart */
+    align-items: center; /* Vertically centers the content within the list item */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.treatment-history ul li:last-child {
+    margin-bottom: 0; /* Removes margin from the last list item */
+}
+
+.treatment-history .treatment-cost {
+    font-weight: bold; /* Makes the cost text bold */
+    color: #e53935; /* A strong color for cost to make it stand out */
+}

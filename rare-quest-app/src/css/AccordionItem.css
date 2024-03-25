@@ -57,3 +57,21 @@
 .select-treatment-button:hover {
   background-color: darkred; /* Darker shade for hover state */
 }
+
+
+
+
+.title-text {
+  flex-grow: 1; /* Ensures the title takes up as much space as possible, pushing other elements to the right */
+}
+
+.cost-text {
+  margin-right: auto; /* Ensures the cost is pushed to the far right */
+  padding-left: 20px; /* Provides some spacing between the title and cost */
+}
+
+.expand-collapse-icon {
+  padding-left: 20px; /* Provides spacing between the cost and the expand/collapse icon */
+}
+
+/* Adjustments for the button container if necessary */
