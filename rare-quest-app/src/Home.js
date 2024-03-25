@@ -4,6 +4,9 @@ import homePageAsset from './Assets/homePageAsset.png';
 import Game from './Game';
 
 function HomePage({ setContentText }) {
+
+    console.log(typeof setContentText); // Should log 'function'
+
     const handlePlayClick = () => {
         setContentText(<Game />);
     };
