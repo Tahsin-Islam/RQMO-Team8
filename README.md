@@ -2,7 +2,13 @@
 RareQuest is web-based investigation game where the user discovers the challenges of correctly diagnosing a rare disease.
 The player spawns in with limited resources, so they must be careful with the choices they make. 
 
-Written in HTML, CSS and React JS
+Written in HTML, CSS and React.js
+
+# The Issue
+The general public is uninformed on the investment of time, money and energy in diagnosing and treating a rare disease. Additionally, the public does not understand the consequences of pursuing a path of research that ultimately yields nothing of value and simply wastes resources. 
+
+# Our Proposed Solution
+We created this game specifically so the average person can get some sort of idea on the difficulty of this task as well as having the opportunity to strategize and make informed decisions based on available resources and information that is currently available. It is interactive and fun but still serves as a good learning experience.
 
 # Landing Page
 ![Landing Page](https://github.com/Tahsin-Islam/RQMO-Team8/assets/115113969/35e3090b-9c3c-4de0-aa79-70dba8f81b93)
